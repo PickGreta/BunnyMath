@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+body{
+    margin: 0;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('./kepek/background.png');
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.dark-mode{
+    background-color: black;
+    background-image: url('./kepek/background-nm.png');
+    color: white;
+}
+
+#welcome{
+    max-width: 700px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.dark-mode #welcome{
+    background-color: #222222;
+}
+
+.nyuszi{
+    width: 200px;
+}
+
+.quiz{
+    max-width: 700px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.dark-mode .quiz{
+    background-color: #222222;
+}
+
+#button-hide, #button-next{
+    padding: 15px 45px;
+    background-color: #c3b4df;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#logout-button{
+    padding: 15px 45px;
+    background-color: white;
+    color: #97addd;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dark-mode #button-hide{
+    background-color: #742796;
+    color: #222222;
+}
+
+.dark-mode #button-next{
+    background-color: #742796;
+    color: #222222;
+}
+
+#night-mode{
+    width: 10%;
+    padding: 15px 45px;
+    background-color: white;
+    color: #97addd;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#logout{
+    position:absolute;
+    top:0;
+    right:0;
+   }
+
+#leaderboard_b{
+    position: relative;
+    float: right;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dark-mode #leaderboard_b{
+    background-color: #222222;
+}
+
+.dark-mode #night-mode{
+    background-color: #222222;
+    color: #742796;
+}
+
+#button-hide{
+    display: block;
+    margin: auto;
+}
+
+#button-next{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+
+h1{
+    color: #c3b4df;
+}
+
+.dark-mode h1{
+    color: #742796;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+
+#ranglista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.75rem;
+}
